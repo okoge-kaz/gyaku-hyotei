@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css' 
+import styles from '../styles/Home.module.css'
 import footer from '../styles/Footer.module.css'
 
 export default function Home() {
@@ -14,9 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.section}>
-          <h1 className={styles.title}>
-            <span>Gyaku-Hyotei</span>
-          </h1>
+          <h1 className={styles.title}>Gyaku-Hyotei</h1>
 
           <p className={styles.description}>
             このページは
@@ -31,7 +29,6 @@ export default function Home() {
             <p>文系教養科目</p>
             <p>英語科目</p>
             <p>第二外国語科目</p>
-
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
@@ -39,7 +36,6 @@ export default function Home() {
             <p>理学院</p>
             <p>工学院</p>
             <p>物質理工学院</p>
-
           </a>
 
           <a href="https://github.com/vercel/next.js/tree/master/examples" className={styles.card}>
@@ -47,7 +43,6 @@ export default function Home() {
             <p>数学系</p>
             <p>物理学系</p>
             <p>化学系</p>
-
           </a>
 
           <a
@@ -55,7 +50,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2 className={styles.border}>工学院 &rarr;</h2>
-            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+            <p></p>
           </a>
 
           <a
@@ -63,7 +58,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2 className={styles.border}>物質理工学院 &rarr;</h2>
-            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+            <p></p>
           </a>
 
           <a
@@ -71,7 +66,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2 className={styles.border}>情報理工学院 &rarr;</h2>
-            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+            <p></p>
           </a>
 
           <a
@@ -79,7 +74,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2 className={styles.border}>環境社会理工学院 &rarr;</h2>
-            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+            <p></p>
           </a>
 
           <a
@@ -87,24 +82,24 @@ export default function Home() {
             className={styles.card}
           >
             <h2 className={styles.border}>生命理工学院 &rarr;</h2>
-            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+            <p></p>
           </a>
         </div>
       </main>
 
       <div className={footer.footer}>
-      <div className={footer.contactus}>
-        <a
-          href="https://forms.gle/ZtJGJfxKadJ6VuAa8"
-          target="_blank"
-          rel="noreferrer"
-          className={footer.contactusLink}
-        >
-          CONTACT US
-        </a>
+        <div className={footer.contactus}>
+          <a
+            href="https://forms.gle/ZtJGJfxKadJ6VuAa8"
+            target="_blank"
+            rel="noreferrer"
+            className={footer.contactusLink}
+          >
+            CONTACT US
+          </a>
+        </div>
+        <div className={footer.copyright}>Copyright 2021 Titech Info</div>
       </div>
-      <div className={footer.copyright}>Copyright 2021 Titech Info</div>
-    </div>
     </div>
   )
 }
