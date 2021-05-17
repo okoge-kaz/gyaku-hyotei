@@ -17,8 +17,7 @@ export default function Home() {
           <h1 className={styles.title}>Gyaku-Hyotei</h1>
 
           <p className={styles.description}>
-            このページは
-            <a href="https://titech.app/products/titechinfo/">Titech Info</a>
+            このページは Titech Info
             の姉妹ページです。ここに、説明を書きます。テスト、テスト、テスト
           </p>
         </div>
