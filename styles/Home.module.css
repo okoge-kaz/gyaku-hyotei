@@ -69,6 +69,10 @@
   margin-top: 3rem;
 }
 
+.border {
+  border-bottom: solid 2px #ffb26b;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;

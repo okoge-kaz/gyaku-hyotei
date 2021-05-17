@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css' 
+import footer from '../styles/Footer.module.css'
 
 export default function Home() {
   return (
@@ -26,25 +27,34 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>教養科目 &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2 className={styles.border}>教養科目 &rarr;</h2>
+            <p>文系教養科目</p>
+            <p>英語科目</p>
+            <p>第二外国語科目</p>
+
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>初年次専門科目 &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2 className={styles.border}>初年次専門科目 &rarr;</h2>
+            <p>理学院</p>
+            <p>工学院</p>
+            <p>物質理工学院</p>
+
           </a>
 
           <a href="https://github.com/vercel/next.js/tree/master/examples" className={styles.card}>
-            <h2>理学院 &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2 className={styles.border}>理学院 &rarr;</h2>
+            <p>数学系</p>
+            <p>物理学系</p>
+            <p>化学系</p>
+
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>工学院 &rarr;</h2>
+            <h2 className={styles.border}>工学院 &rarr;</h2>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
 
@@ -52,7 +62,7 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>物質理工学院 &rarr;</h2>
+            <h2 className={styles.border}>物質理工学院 &rarr;</h2>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
 
@@ -60,7 +70,7 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>情報理工学院 &rarr;</h2>
+            <h2 className={styles.border}>情報理工学院 &rarr;</h2>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
 
@@ -68,7 +78,7 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>環境社会理工学院 &rarr;</h2>
+            <h2 className={styles.border}>環境社会理工学院 &rarr;</h2>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
 
@@ -76,24 +86,25 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>生命理工学院 &rarr;</h2>
+            <h2 className={styles.border}>生命理工学院 &rarr;</h2>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <div className={footer.footer}>
+      <div className={footer.contactus}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://forms.gle/ZtJGJfxKadJ6VuAa8"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
+          className={footer.contactusLink}
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          CONTACT US
         </a>
-      </footer>
+      </div>
+      <div className={footer.copyright}>Copyright 2021 Titech Info</div>
+    </div>
     </div>
   )
 }
