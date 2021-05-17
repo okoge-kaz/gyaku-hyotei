@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.section}>
-          <h1 className={styles.title}>Gyaku-Hyotei</h1>
+          <h1 className={styles.title}>Gyaku&nbsp;-&nbsp;Hyotei</h1>
 
           <p className={styles.description}>
             このページは Titech Info
