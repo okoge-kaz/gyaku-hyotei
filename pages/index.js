@@ -23,66 +23,51 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <div className={styles.card}>
             <h2 className={styles.border}>教養科目 &rarr;</h2>
-            <p>文系教養科目</p>
-            <p>英語科目</p>
-            <p>第二外国語科目</p>
-          </a>
+            <p className={styles.back}>文系教養科目</p>
+            <p className={styles.back}>英語科目</p>
+            <p className={styles.back}>第二外国語科目</p>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <div className={styles.card}>
             <h2 className={styles.border}>初年次専門科目 &rarr;</h2>
-            <p>理学院</p>
-            <p>工学院</p>
-            <p>物質理工学院</p>
-          </a>
+            <p className={styles.back}>理学院</p>
+            <p className={styles.back}>工学院</p>
+            <p className={styles.back}>物質理工学院</p>
+          </div>
 
-          <a href="https://github.com/vercel/next.js/tree/master/examples" className={styles.card}>
+          <div className={styles.card}>
             <h2 className={styles.border}>理学院 &rarr;</h2>
-            <p>数学系</p>
-            <p>物理学系</p>
-            <p>化学系</p>
-          </a>
+            <p className={styles.back}>数学系</p>
+            <p className={styles.back}>物理学系</p>
+            <p className={styles.back}>化学系</p>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+          <div className={styles.card}>
             <h2 className={styles.border}>工学院 &rarr;</h2>
             <p></p>
-          </a>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+          <div className={styles.card}>
             <h2 className={styles.border}>物質理工学院 &rarr;</h2>
             <p></p>
-          </a>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+          <div className={styles.card}>
             <h2 className={styles.border}>情報理工学院 &rarr;</h2>
             <p></p>
-          </a>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+          <div className={styles.card}>
             <h2 className={styles.border}>環境社会理工学院 &rarr;</h2>
             <p></p>
-          </a>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+          <div className={styles.card}>
             <h2 className={styles.border}>生命理工学院 &rarr;</h2>
             <p></p>
-          </a>
+          </div>
         </div>
       </main>
 

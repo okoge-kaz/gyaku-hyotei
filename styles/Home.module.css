@@ -56,8 +56,12 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.back {
+  background-color:rgb(238, 236, 236);
+  padding: 0.7rem;
+  border-radius: 5px;
 }
 
 .grid {
@@ -98,7 +102,6 @@
 }
 
 .card p {
-  margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
 }
