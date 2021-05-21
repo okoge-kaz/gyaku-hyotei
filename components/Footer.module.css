@@ -1,6 +1,9 @@
 .footer {
   background: #f0f2f5;
-  padding: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .contactus {
