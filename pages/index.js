@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import footer from '../styles/Footer.module.css'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -13,14 +15,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.section}>
-          <h1 className={styles.title}>Gyaku&nbsp;-&nbsp;Hyotei</h1>
-
-          <p className={styles.description}>
-            このページは Titech Info
-            の姉妹ページです。ここに、説明を書きます。テスト、テスト、テスト
-          </p>
-        </div>
+        <Header/>
 
         <div className={styles.grid}>
           <div className={styles.card}>
@@ -71,19 +66,7 @@ export default function Home() {
         </div>
       </main>
 
-      <div className={footer.footer}>
-        <div className={footer.contactus}>
-          <a
-            href="https://forms.gle/ZtJGJfxKadJ6VuAa8"
-            target="_blank"
-            rel="noreferrer"
-            className={footer.contactusLink}
-          >
-            CONTACT US
-          </a>
-        </div>
-        <div className={footer.copyright}>Copyright 2021 Titech Info</div>
-      </div>
+      <Footer/>
     </div>
   )
 }
