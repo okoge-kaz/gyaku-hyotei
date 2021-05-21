@@ -1,10 +1,10 @@
 html,
 body {
-  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3',
+    'メイリオ', sans-serif;
   background: #ffffff;
 }
 
 * {
   box-sizing: border-box;
 }
-

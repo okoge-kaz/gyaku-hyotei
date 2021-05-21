@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Header/>
+        <Header />
 
         <div className={styles.grid}>
           <div className={styles.card}>
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
       </main>
 
-      <Footer/>
+      <Footer />
     </div>
   )
 }
